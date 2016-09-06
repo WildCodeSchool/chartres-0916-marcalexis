@@ -54,16 +54,6 @@ table {
 	src:url(../fonts/opensanslight.TTF);
 }
 
-@font-face {
-	font-family:'braxton';
-	src:url(../fonts/Braxton.otf);
-}
-
-@font-face {
-	font-family:'dekiru';
-	src:url(../fonts/dekiru.TTF);
-}
-
 p, h1{
 	font-family:opensanslight;
 }
@@ -88,7 +78,7 @@ p, h1{
 	width: 100%;
 	margin: auto;
 	background-color: white;
-	height:1500px;
+	height:150px;
 
 }
 
@@ -150,4 +140,20 @@ nav li + li {
 
 nav li:last-child{
 	padding-right:15px;
+}
+
+footer{
+	position: absolute;
+	bottom:0;
+	background-color: rgb(255,165,0);
+	width: 100%;
+	height:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: right;
+}
+
+footer p {
+	padding-right:10px;
+
 }
